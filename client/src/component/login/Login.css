@@ -1,0 +1,34 @@
+#loginBg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(125, 186, 255);
+}
+#loginMenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 370px;
+    min-height: 200px;
+    padding: 60px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#icon{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-image: url('./userIcon.jpg');
+    background-size: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
+}
+
+@media(max-width: 380px){
+    #loginMenu{
+        width: 80%;
+    }
+}

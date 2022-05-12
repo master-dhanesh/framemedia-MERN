@@ -1,0 +1,36 @@
+
+.jumbotron{
+    position: relative;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    background-image: url(https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1866&q=80);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  textarea{
+    resize: none;
+  }
+  
+  .display-5{
+    font-size: 40px;
+    font-weight: 100;
+  }
+  
+  .lead-2{
+    width: 60%;
+    font-size: 12px;
+  }
+  
+  @media(max-width: 500px){
+    .display-5{
+      font-size: 28px;
+      font-weight: 100;
+    }
+    
+    .lead-2{
+      width: 100%;
+      font-size: 11px;
+    } 
+  }
